@@ -1,0 +1,160 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin:auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #47545a22;
+    }
+    
+    header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    }
+    
+    header h1 {
+    margin: 0;
+    }
+    
+    nav ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    nav li {
+    display: inline;
+    margin-right: 20px;
+    }
+    
+    nav a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+    main {
+    flex-grow: 1; 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    } 
+    
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    
+   
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+    
+    .vacancy {
+        border: 3px solid #28429089;
+        padding: 10px;
+        margin-bottom: 20px;
+       
+    }
+   
+    form {
+        margin-top: 10px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        
+    }
+    
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    img {
+        max-width: 400px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+        display: block;
+        float: left;
+        margin-right: 25px;
+        margin-top: 10px;
+
+    }
+    p { 
+        margin: 0;
+        font-family: "Arial", sans-serif;
+        font-size: 18px ;
+
+    }
+    .container {
+        width: 100%;
+    }
+    .logo {
+       
+        border: none;
+
+        
+        max-width: 150px;
+        box-shadow: none;
+        margin-bottom: 10px;
+    }
+    
+    
+
+    h1 {
+       
+        text-align: center;
+    }
+
+    .review {
+        border: 1px solid #dddddd81;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #0210353c;
+        border-radius: 5px;
+    }
+
+   
+
+    p {
+        line-height: 1.6;
+    }
